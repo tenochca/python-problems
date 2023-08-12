@@ -13,6 +13,6 @@ def fibonacci(n):
         return fib #return the final list
     
 n = eval(input('Enter the number of fibonacci numbers to generate: '))
-fib_list = fibonacci(n)
-print(fib_list)
+fibonacci_list = fibonacci(n)
+print(fibonacci_list)
 

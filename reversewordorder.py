@@ -15,4 +15,14 @@ def reverse(s):
 string = (input('Enter a sentence: ')).split()
 print(reverse(string))
 
+#----------------------------------------------#
+#non recursive method
+
+def reversal(s):
+    reversedlist = s[::-1]
+    finalstring = ' '.join(reversedlist)
+    return finalstring
+
+sentence = (input('Enter a sentence: ')).split()
+print('regular way: ', reversal(sentence))
 

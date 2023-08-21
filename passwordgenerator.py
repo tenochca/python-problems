@@ -17,5 +17,3 @@ def password(k: int):
 
 print(password(10))
 
-print(string.punctuation)
-print(str(range(0,9)))

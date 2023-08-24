@@ -15,5 +15,10 @@ def password(k: int):
     passwrd = ''.join(rd.choices(pool, k=k))
     return passwrd
 
-print(password(10))
+def main():
+    print(password(10))
+
+if __name__ == '__main__':    
+    main()
+
 

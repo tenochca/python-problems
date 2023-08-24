@@ -12,7 +12,12 @@ def fibonacci(n):
         fib.append(fib[-1] + fib[-2]) #calculates and appends the next num
         return fib #return the final list
     
-n = eval(input('Enter the number of fibonacci numbers to generate: '))
-fibonacci_list = fibonacci(n)
-print(fibonacci_list)
+def main():  
+    n = eval(input('Enter the number of fibonacci numbers to generate: '))
+    fib_list = fibonacci(n)
+    print(fib_list)
+    return fib_list
+
+if __name__ == '__main__':
+    main()
 
